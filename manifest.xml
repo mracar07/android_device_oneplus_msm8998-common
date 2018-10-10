@@ -182,7 +182,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.power</name>
-        <transport>hwbinder</transport>
+        <transport arch="32+64">passthrough</transport>
         <version>1.1</version>
         <interface>
             <name>IPower</name>
@@ -225,7 +225,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.sensors</name>
-        <transport>hwbinder</transport>
+        <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
             <name>ISensors</name>
@@ -263,7 +263,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.thermal</name>
-        <transport>hwbinder</transport>
+        <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
             <name>IThermal</name>
@@ -290,7 +290,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.vr</name>
-        <transport>hwbinder</transport>
+        <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
             <name>IVr</name>
@@ -447,7 +447,7 @@
     </hal>
     <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
-        <transport>hwbinder</transport>
+        <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
             <name>IColor</name>
@@ -456,7 +456,7 @@
     </hal>
     <hal format="hidl">
         <name>vendor.lineage.power</name>
-        <transport>hwbinder</transport>
+        <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
             <name>ILineagePower</name>
