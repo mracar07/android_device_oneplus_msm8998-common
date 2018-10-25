@@ -271,3 +271,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # HAL1 Packages
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk
+
+# VoLTE Prop
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.volte_enalbed_by_hw=1 
