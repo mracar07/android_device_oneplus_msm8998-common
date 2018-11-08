@@ -572,8 +572,8 @@
           16 - App switch
           32 - Camera
        For example, a device with Back, Home and AppSwitch keys would set this
-       config to 19. -->
-    <integer name="config_deviceHardwareKeys">19</integer>
+       config to 19. 
+    <integer name="config_deviceHardwareKeys">19</integer>-->
 
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
