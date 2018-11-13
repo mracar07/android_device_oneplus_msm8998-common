@@ -30,7 +30,7 @@ import android.util.Log;
 
 import com.oneplus.shit.settings.R;
 
-import com.android.internal.util.gzosp.AppHelper;
+import com.android.internal.util.rr.AppHelper;
 
 import java.util.ArrayList;
 

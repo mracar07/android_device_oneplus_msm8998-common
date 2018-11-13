@@ -56,8 +56,8 @@ import android.os.Vibrator;
 import android.service.notification.ZenModeConfig;
 import com.oneplus.shit.settings.ScreenOffGesture;
 import com.android.internal.util.ArrayUtils;
-import com.android.internal.util.gzosp.ActionConstants;
-import com.android.internal.util.gzosp.Action;
+import com.android.internal.util.rr.ActionConstants;
+import com.android.internal.util.rr.Action;
 
 public class KeyHandler implements DeviceKeyHandler {
 

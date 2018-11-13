@@ -37,10 +37,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.internal.util.gzosp.AppHelper;
-import com.android.internal.util.gzosp.ActionConstants;
-import com.android.internal.util.gzosp.DeviceUtils;
-import com.android.internal.util.gzosp.DeviceUtils.FilteredDeviceFeaturesArray;
+import com.android.internal.util.rr.AppHelper;
+import com.android.internal.util.rr.ActionConstants;
+import com.android.internal.util.rr.DeviceUtils;
+import com.android.internal.util.rr.DeviceUtils.FilteredDeviceFeaturesArray;
 
 import com.oneplus.shit.settings.KernelControl;
 import com.oneplus.shit.settings.R;
